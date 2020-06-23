@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter,Route,Switch} from 'react-router-dom';
-
+import { BrowserRouter,Route,Switch,Redirect,Router} from 'react-router-dom';
+import { isAuthenticated } from "./auth";
 import Login from './pages/Login';
 import Faq from './pages/FAQ';
 import Register from './pages/Register';
@@ -25,6 +25,26 @@ import fac6 from './pages/FAQ/fac6';
 import fac7 from './pages/FAQ/fac7';
 import fac8 from './pages/FAQ/fac8';
 import fac9 from './pages/FAQ/fac9';
+import teste from './pages/teste.js/teste';
+import { podeLogar } from './auth';
+import {history} from './historico';
+
+
+
+const PrivateRoute = ({ component: Component, ...rest }) => (
+  <Route
+    {...rest}
+    render={props =>
+      isAuthenticated() ? (
+        <Component {...props} />
+      ) : (
+        <Redirect to={{ pathname: "/", state: { from: props.location } }} />
+      )
+    }
+  />
+);
+
+
 
 
 export default function Routes(){
@@ -35,7 +55,7 @@ export default function Routes(){
               <Route path="/" exact component={Home}></Route>
               <Route path="/faq"  component={Faq}/>
               <Route path="/register" component={Register}/>
-              <Route path="/playlist" component={Playlist}/>
+              <PrivateRoute path="/playlist" component={Playlist}/>
               <Route path="/playMusic/1" component={PlayMusic1}/>
               <Route path="/playMusic/2" component={PlayMusic2}/>
               <Route path="/playMusic/3" component={PlayMusic3}/>
@@ -44,7 +64,7 @@ export default function Routes(){
               <Route path="/playMusic/6" component={PlayMusic6}/>
               <Route path="/playMusic/7" component={PlayMusic7}/>
               <Route path="/playMusic/8" component={PlayMusic8}/>
-
+              <PrivateRoute path="/clientePerfil" component={() => <h1>Em obra: Futuramente, pagina de gerenciamento de Usuario</h1>} />
             {/*Routas do FAQ*/}
             <Route path="/faq1" component ={fac1}></Route>
             <Route path="/faq2" component ={fac2}></Route>

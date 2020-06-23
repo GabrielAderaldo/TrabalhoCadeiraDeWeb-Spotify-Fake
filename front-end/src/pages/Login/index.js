@@ -39,7 +39,7 @@ export default class Login extends Component {
         senha: 'tomate98'
     }
 
-   
+    
     singIn = (event) =>{
         const data = {email: this.email,senha: this.senha}  
         const requestInfo = {
@@ -58,18 +58,26 @@ export default class Login extends Component {
             email: this.email,
             senha: this.senha
         }
+        var fakeToken = null;
 
         console.log("é isso que procuro" + usuarioLogin)
         Axios.post("http://localhost:8080/user/autenticacao",usuarioLogin).then(res =>{
-        
-        }).then( token => {
-            localStorage.setItem('token',token);
-        }).catch(err =>{
-            console.log(err);
+            fakeToken  = true;
+            localStorage.setItem('token',fakeToken);
+                 
+         })
+        .catch(err =>{
+            localStorage.removeItem('token',fakeToken);
+            
+
         });
     
     }
 
+
+    singOut = (event) =>{
+        localStorage.removeItem('token',false);
+    }
 
 
 
@@ -97,6 +105,7 @@ export default class Login extends Component {
                             </div>
                         
                             <button className="bntLogin" block onClick={this.singIn}>Entrar</button>
+                            <button className="bntOff" block onClick={this.singOut}>Sair</button>
                             <h3 className="registrar">Não tem uma conta? <Link className="link" to="/register">clique aqui</Link></h3>
                         {/**Final do forms Login */}
                         </div>
