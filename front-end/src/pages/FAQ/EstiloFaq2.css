@@ -1,0 +1,105 @@
+.faq2Container{
+margin: 0;
+padding: 0;
+}
+
+.resolverBug{
+    display: none;
+}
+
+
+.toggleContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txtPrincipal{
+    text-align: center;
+    font-size: medium;
+    border-radius: 4%;
+    
+}
+
+.tRespostaFirst{
+    margin-top: 10px
+}
+
+.tResposta{
+   margin-top:30px;
+}
+
+.bntResposta{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    transition: 0.10s;
+}
+
+.bntResposta:hover{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+	background-color:#f6f6f6;
+}
+
+.bntResposta:active{
+    position: relative;
+    top: 1px;
+}
+
+
+
+.bntForum{
+    margin-top: 15px;
+    box-shadow:inset -1px 0px 14px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:20px;
+	border:2px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 46px;
+	text-decoration:none;
+	text-shadow:0px -3px 0px #263666;
+}
+
+.bntForum:hover{
+    background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+
+
+.bntForum:active{
+
+    position: relative;
+    top: 1px;
+}
+
+
+.parteDoisContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ChamadaPrincipal{
+    font-size: xx-large;
+}
+
+.mainTexto{
+    margin-top: 10px;
+    font-size: large;
+}

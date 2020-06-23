@@ -1,0 +1,25 @@
+.oneContainer{
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+
+.colunaOneContainer{
+    margin-left: 4em;
+}
+
+
+.colunaOneContainer .cTitulo{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.colunaOneContainer .cPergunta{
+    color: #3322cc;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+

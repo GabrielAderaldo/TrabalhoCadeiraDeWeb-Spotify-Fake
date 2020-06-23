@@ -1,0 +1,244 @@
+{
+  "songs": [{
+      "id": 1,
+      "name": "SM",
+      "artist": "Rihanna",
+      "path":"'../../../Mock/Music/Asserts/pop1.mp3'"
+  }, {
+      "id": 2,
+      "name": "Natural",
+      "artist": "Imagine Dragons",
+      "path":"../../../Mock/Music/Asserts/pop2.mp3"
+  },
+  {
+    "id": 3,
+    "name": "Saint Tropez",
+    "artist": "Post Malone",
+    "path":"../../../Mock/Music/Asserts/pop3.mp3"
+  }
+  ,{
+    "id": 4,
+    "name": "I wanna be a cowboy",
+    "artist": "senzawa",
+    "path":"../../../Mock/Music/Asserts/pop4.mp3"
+  }
+  ,{
+    "id": 5,
+    "name": "Demon Days",
+    "artist": "Gorillaz",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 6,
+    "name": "Leaves",
+    "artist": "THE GATHERING",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 7,
+    "name": "Glory Box",
+    "artist": "Portishead ",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 8,
+    "name": "A Horse With No Name",
+    "artist": "America",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 9,
+    "name": "Red Bottom Sky",
+    "artist": "Yung Lean",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 10,
+    "name": "♦ Ginseng Strip 2002 ♦",
+    "artist": "Yung Lean",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 11,
+    "name": "Star Shopping",
+    "artist": "lil peep",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 12,
+    "name": "SAD!",
+    "artist": "XXXTENTACION",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 13,
+    "name": "Mizu No Hoshi e Ai Wo Komete",
+    "artist": "Hiroko Moriguchi",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 14,
+    "name": "Takanori Jinnai",
+    "artist": "Heartbreak Crossin'",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 15,
+    "name": "Endless Dream",
+    "artist": "Hiroko Moriguchi",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 16,
+    "name": "Tooku kara Miteite",
+    "artist": "Hiroko Moriguchi",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 17,
+    "name": "Bible",
+    "artist": "Ghost",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 18,
+    "name": "In My Time Of Need",
+    "artist": "Opeth",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 19,
+    "name": "Yekteniya IV",
+    "artist": "Batushka",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 20,
+    "name": "Lemuria",
+    "artist": "Therion",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 21,
+    "name": "bad guy",
+    "artist": "Billie Eilish",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 22,
+    "name": "Do I Wanna Know ?",
+    "artist": "Arctic Monkeys",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 23,
+    "name": "SLOW DANCING IN THE DARK",
+    "artist": "Joji",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 24,
+    "name": "Sweater Weather",
+    "artist": "The Neighbourhood",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 25,
+    "name": "Patek",
+    "artist": "Mc Igu",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 26,
+    "name": "Mi'aDama",
+    "artist": "Sidoka",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 27,
+    "name": "Hat-Trick",
+    "artist": "Djonga",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 28,
+    "name": "olha p oclin",
+    "artist": "Sidoka",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 29,
+    "name": "The Hell Song",
+    "artist": "Sum 41",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 30,
+    "name": "I Miss You",
+    "artist": "blink-182",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 31,
+    "name": "Thanks For The Memories",
+    "artist": "Fall Out Boy",
+    "path":"../Music/Asserts/pop2.mp3"
+  }
+  ,{
+    "id": 32,
+    "name": "Think Twice",
+    "artist": "Eve 6",
+    "path":"../Music/Asserts/pop2.mp3"
+  }],
+    "playlist": [{
+      "id":1,
+      "nome":"POP",
+      "img":"../Asserts/Img/pop.png",
+      "musicId":[0,1,2,3]
+    },
+    {
+      "id":2,
+      "nome":"Trip Rock",
+      "img":"../Asserts/Img/tripRock.png"
+      ,"musicId":[4,5,6,7]
+    },
+    {
+      "id":3,
+      "nome":"TRAP",
+      "img":"../Asserts/Img/trap.png"
+      ,"musicId":[8,9,10,11]
+    },
+    {
+      "id":4,
+      "nome":"BOOMER",
+      "img":"../Asserts/Img/boomer.png"
+      ,"musicId":[12,13,14,15]
+    },
+    {
+      "id":5,
+      "nome":"Metal",
+      "img":"../Asserts/Img/metal.png"
+      ,"musicId":[16,17,18,19]
+    },
+    {
+      "id":6,
+      "nome":"Indie Pop",
+      "img":"../Asserts/Img/indiePop.png"
+      ,"musicId":[20,21,22,23]
+    }
+    ,
+    {
+      "id":7,
+      "nome":"Trap Nacional",
+      "img":"../Asserts/Img/trapNacional.png"
+      ,"musicId":[24,25,26,27,28]
+    }
+    ,
+    {
+      "id":8,
+      "nome":"Pop Punk",
+      "img":"../Asserts/Img/popPunk.png"
+      ,"musicId":[29,30,31,32]
+    }
+  ]
+}

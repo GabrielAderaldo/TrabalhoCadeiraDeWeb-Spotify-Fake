@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.footer-main-div{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 15px 0.1;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #020202;
+    bottom: 0;
+    
+    
+}
+
+.inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+
+}
+
+.inner-footer .logo-container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+.inner-footer .logo-container img{
+    width: 120px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.inner-footer .footer-third{
+    margin-top: 5vh;
+    width: calc(21.666666667% - 20px);
+    margin-right: 10px;
+    float:left;
+    height: 100%;
+}
+
+.inner-footer .footer-third:last-child{
+    margin-right: 0;
+}
+
+.inner-footer .footer-third h1{
+    font-family: 'arial';
+    font-size: 16px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Poppins','sans-serif'; 
+    
+}
+
+.inner-footer .footer-third a{
+    font-family: 'arial';
+    font-size: 14px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+    font-family: 'Poppins','sans-serif'; 
+}
+
+.inner-footer .footer-third a:hover{
+    color: #05cf52;
+}
+
+.footer-social{
+    display: inline-block;
+    justify-items: center;
+    line-height: 3px;
+    width: 100%;
+    margin-left: 0.5vw;
+    
+}
+
+.footer-social li{
+    display: inline-block;
+    padding: 0 3px;
+    font-size: 20px;
+}
+
+
+.footer-social li a i{
+    color: thistle;
+}
+
+.footer-social span{
+    color: thistle;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.footer-social li a i:hover{
+    color:#05cf52;
+}
+
+@media(max-width: 913px){
+    .footer-main-div{
+        position: static;
+    }
+
+    .footer .inner-footer{
+        width: 90%;
+    }
+
+    .inner-footer .logo-container,
+    .inner-footer .footer-third,
+    .inner-footer .footer-social{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

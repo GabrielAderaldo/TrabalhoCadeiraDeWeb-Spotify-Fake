@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.containerTexto{
+    margin-left: 1em;
+    color: #ffffff;
+   
+    
+}
+
+.containerTexto h1{
+    font-style: oblique;
+    font-size: 26px;
+}
+
+.containerTexto h2{
+    font-size: 20px;
+}
+
+.conteudoEscrito{
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+}
+
+
+.margens{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/*teste*/
+.teamBx{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-row-gap: 30px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+
+.teamBx .membros{
+    box-shadow:  5px 10px 18px #888888;
+    border-radius: 5%;
+    position: relative;
+    background: #000000;
+    min-height:140px;
+    width: 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 40px;
+}
+
+.teamBx .membros .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 140px;
+    border-radius: 5%;
+}
+
+
+.teamBx .membros .imgBx .img{
+    border-radius: 5%;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 160px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.teamBx .membros .detalhes{
+    border-radius: 5%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.teamBx .membros:hover .detalhes{
+    opacity: 0.6;
+}
+
+.teamBx .membros .detalhes h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.teamBx .membros .detalhes h2 {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+
+.teamBx .membros .detalhes .ajustesGambiarra{
+font-size: 11px;
+}
+  
+#playlist-container{
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #000000 0%, #be88dd 100%);
+}
+  #content-playlist-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+    
+  }
+
+  .espaco{
+      padding:50px;
+  }
+
+  .espaco2{
+      padding: 125px;
+  }
